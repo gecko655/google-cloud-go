@@ -3,18 +3,17 @@ module cloud.google.com/go/bigtable
 go 1.15
 
 require (
-	cloud.google.com/go v0.100.2
+	cloud.google.com/go v0.110.0
 	cloud.google.com/go/cbt v0.0.0-20220323182412-0d77640e139e
-	cloud.google.com/go/iam v0.3.0
-	github.com/golang/protobuf v1.5.2
+	cloud.google.com/go/iam v0.13.0
+	cloud.google.com/go/longrunning v0.4.1
+	github.com/golang/protobuf v1.5.3
 	github.com/google/btree v1.0.1
-	github.com/google/go-cmp v0.5.7
-	github.com/googleapis/gax-go/v2 v2.3.0
-	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
-	google.golang.org/api v0.74.0
-	google.golang.org/genproto v0.0.0-20220407144326-9054f6ed7bac
-	google.golang.org/grpc v1.45.0
-	google.golang.org/protobuf v1.28.0
+	github.com/google/go-cmp v0.5.9
+	github.com/googleapis/gax-go/v2 v2.7.1
+	google.golang.org/api v0.114.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	rsc.io/binaryregexp v0.2.0
 )
